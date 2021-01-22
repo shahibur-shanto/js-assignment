@@ -12,7 +12,7 @@ function kilometerToMeter(kilometer) {
 
 
 function budgetCalculator(watch, phone, laptop) {
-    if (watch < 0 || phone < 0 || laptop < 0 || typeof (watch) == "string" || typeof (phone) == "string" || typeof (laptop) == "string") {
+    if (watch < 0 || phone < 0 || laptop < 0 || typeof (watch) != "number" || typeof (phone) != "number" || typeof (laptop) != "number") {
         return "You have enter a Wrong Value!!!!";
     }
     else {
